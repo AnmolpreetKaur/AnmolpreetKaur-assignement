@@ -1,5 +1,5 @@
 
-public interface deque<int> {
+public interface deque<Integer> {
 	public void addFirst(int item);
 	public void addLast(int item);
 	public void removeFirst();
