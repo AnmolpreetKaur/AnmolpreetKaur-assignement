@@ -14,7 +14,7 @@ public class ArrayBasedDeque<AnyType> implements deque<AnyType> {
 	 *  ArrayBasedDeque() constructs an empty deque.
 	 */
 	public ArrayBasedDeque(){ 
-		private List<Integer> deque = new ArrayList<Integer>();
+		private List<Integer> deque = new ArrayList<Integer>(MAX_SIZE);
 		public void addFirst(int x){
 		//add element at the beginning of the queue
 		System.out.println("adding at front: "+x);
