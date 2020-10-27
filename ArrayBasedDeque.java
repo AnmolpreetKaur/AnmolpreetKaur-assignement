@@ -1,5 +1,6 @@
 import java.util.NoSuchElementException;
-
+import java.util.ArrayList;
+import java.util.List;
 public class ArrayBasedDeque<AnyType> implements deque<AnyType> {
 	
 	private static int MAX_SIZE = 5;  // initial array size
@@ -25,7 +26,7 @@ public class ArrayBasedDeque<AnyType> implements deque<AnyType> {
 	 * Returns the size of the deque
 	 * @return the number of elements in this deque
 	 */
-	public int size() {
+	public int Size() {
 		//return length of deque
 		int lenDeque = deque.size();
 		return lenDeque;
@@ -34,7 +35,7 @@ public class ArrayBasedDeque<AnyType> implements deque<AnyType> {
 	/**
 	 * Removes all elements from this deque
 	 */
-	public void clear() {
+	public void Clear() {
 		deque.clear();
 		System.out.println(deque);
 	}
