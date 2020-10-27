@@ -140,6 +140,25 @@ public class ArrayBasedDeque<AnyType> implements deque<AnyType> {
 		System.out.println("Element at first: "+item);
 		return item;
 	}
+
+	public static void main(String[] args) {
+		System.out.println("Call every function here!");
+		ArrayBasedDeque();
+		addFirst(10);
+		addLast(20);
+		addLast(120);
+		addLast(60);
+		removeFirst();
+		removeLast();
+		getFirst();
+		addFirst(99);
+		getLast();
+		get();
+		isEmpty();
+		Size();
+		Clear();
+
+    } 
 	
 	// public String toString() {
 	// 	//complete
